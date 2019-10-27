@@ -1,0 +1,51 @@
+body
+{
+	background-image: url("test.jp.jpg");
+	background-position: fixed;
+}
+#banner{
+	background-color:  #565b7e;
+	width: 100%;
+}
+
+#homeblog
+{
+	background-color: white;
+}
+
+ h1
+{
+
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 70px;
+}
+
+h2
+{
+	color: black;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 35px;
+	text-shadow: 2px 2px 4px white;
+}
+
+p111
+{
+	color: black;
+	text-shadow: 2px 2px 4px white;
+
+}
+
+#left
+{
+	float: left;
+}
+
+#right
+{
+	float: left;
+	
+}
+#description
+{
+	background-color: white;
+}
