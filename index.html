@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Tailwind Page</title>
+    <!-- Tailwind CSS CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-blue-100 flex flex-col justify-center" style ="font-family: Lora, serif; font-weight: 300;">
+
+
+    <style>
+        .vh60 {
+    height: 70vh;
+}
+
+@media (min-width: 728px) {
+    .vh60 {
+        height: 100vh;
+    }
+}
+    </style>
+    <div class="w-full vh60 " style="background-image: url('https://www.knhs.edu.bd/images/Campus-view.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+        
+
+        <div class="sm:absolute inset-0 bg-black bg-opacity-50 flex flex-col sm:flex-row justify-between items-center text-white w-full h-full">
+
+            <div class="bg-white w-full h-10 fixed top-0 bg-blue-500">
+
+                <ul class="flex flex-row ms-auto gap-2 ">
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    
+                </ul>
+            
+            </div>
+
+            <div class="flex flex-col sm:flex-row p-2 sm:px-20 w-full">
+
+                <div class="w-full sm:w-1/2 hidden sm:block">
+                    <p class="text-base sm:text-4xl py-6">Kabi Nazrul High school</p>
+                    <ul class="text-xs sm:text-sm">
+                        <li class="py-2">&#10003; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, cum!</li>
+                        <li class="py-2">&#10003; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, cum!</li>
+                        <li class="py-2">&#10003; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, cum!</li>
+                        <li class="py-2">&#10003; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, cum!</li>
+                        <li class="py-2">&#10003; Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, cum!</li>
+                    </ul>
+                </div>
+
+                <div class="w-full flex justify-center items-center sm:justify-end sm:w-1/2" style="height: 65dvh;">
+
+                    <div class="flex flex-col justify-center items-center">
+
+                    <div class="text-xs h-20 w-20 m-1 py-1 bg-blue-500 rounded-full  flex flex-row justify-center items-center text-center">500+ <br>students</div>
+                    <div class="text-xs h-20 w-20 m-1 py-1 bg-red-500 rounded-full  flex flex-row justify-center items-center text-center">30 <br>teachrs</div>
+                    <div class="text-xs h-20 w-20 m-1 py-1 bg-yellow-500 rounded-full  flex flex-row justify-center items-center text-center">6-10 <br>standards</div>
+                    <div class="text-xs h-20 w-20 m-1 py-1 bg-green-500 rounded-full  flex flex-row justify-center items-center text-center">Science, <br> Arts, <br>Commerce</div>
+                    
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="w-full  bg-white p-2 sm:px-20 sm:pt-8">
+
+        <div class="flex flex-col sm:flex-row sm:items-center text-sm text-red-800 rounded shadow-lg bg-red-100 dark:bg-gray-800 dark:text-red-400 border78 border-red-400" role="alert">
+            <div class="w-full sm:w-1/6 bg-red-500  p-3 rounded-l">
+                <p class="text-center text-white ">Declaration</p>
+            </div>
+            
+            <div class="w-full sm:w-5/6 p-3">
+                <marquee behavior="" direction=""> 
+                    <p class="text-xs">এস.এস.সি. - ২০২৮ পরিক্ষার্থীদের রুটিন প্রকাশিত হয়েছে । শিক্ষার্থীদের প্রবেশপত্র ১২-৩-২০২৮ ইং তারিখে, রোজ মঙ্গলবার প্রদান করা হবে সকাল ১০.০০ ঘটিকা থেকে। প্রত্যেক শিক্ষার্থীকে যথাসময়ে বিদ্যালয়ে উপস্থিত থাকার জন্য বলা হচ্ছে। </p>
+                </marquee>
+            </div>
+        </div>
+
+        <p class="py-8 px-2">Ongoing school days</p>
+
+        <div class="w-full rounded border border-slate-200 bg-blue-100">
+            <!-- <div class="w-full text-red-600  border-2 border-white text-xs py-2 bg-white">
+                <marquee behavior="" direction=""> 
+                    <p>এস.এস.সি. - ২০২৮ পরিক্ষার্থীদের রুটিন প্রকাশিত হয়েছে । শিক্ষার্থীদের প্রবেশপত্র ১২-৩-২০২৮ ইং তারিখে, রোজ মঙ্গলবার প্রদান করা হবে সকাল ১০.০০ ঘটিকা থেকে। প্রত্যেক শিক্ষার্থীকে যথাসময়ে বিদ্যালয়ে উপস্থিত থাকার জন্য বলা হচ্ছে। </p>
+                </marquee>
+            </div> -->
+            <div class="p-2 sm:p-8 flex flex-col sm:flex-row ">
+            
+                <div class="container w-full sm:w-2/5 mr-6">
+                    <p>News and Notices</p>
+                    <ol class="text-xs  list-decimal list-inside p-2 sm:p-0">
+                        <li class="py-2">
+                            <a class="text-blue-500 hover:text-blue-700 underline cursor-pointer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officiis repudiandae iure eaque labore sint recusandae quo. Consectetur debitis modi optio sed fuga similique veritatis animi est, iure dolor beatae!
+                            </a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-blue-500 hover:text-blue-700 underline cursor-pointer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officiis repudiandae iure eaque labore sint recusandae quo. Consectetur debitis modi optio sed fuga similique veritatis animi est, iure dolor beatae!
+                            </a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-blue-500 hover:text-blue-700 underline cursor-pointer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officiis repudiandae iure eaque labore sint recusandae quo. Consectetur debitis modi optio sed fuga similique veritatis animi est, iure dolor beatae!
+                            </a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-blue-500 hover:text-blue-700 underline cursor-pointer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officiis repudiandae iure eaque labore sint recusandae quo. Consectetur debitis modi optio sed fuga similique veritatis animi est, iure dolor beatae!
+                            </a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-blue-500 hover:text-blue-700 underline cursor-pointer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat officiis repudiandae iure eaque labore sint recusandae quo. Consectetur debitis modi optio sed fuga similique veritatis animi est, iure dolor beatae!
+                            </a>
+                        </li>
+                        
+                    </ol>
+                </div>
+
+                <div class="continer w-full sm:w-3/5 sm:border-l-2 border-gray-300 sm:pl-8">
+                    <p>Schedules</p>
+
+                    <div class="flex sm:flex-row justify-around">
+
+                        <div class="w-2/12 flex items-center justify-center px-1 sm:px-4">
+                            
+                                <div class="pb-1 myButton_left text-sm sm:text-xl rounded-full flex flex-col items-center justify-center border-2 border-gray-600 hover:border-white text-gray-600 h-6 w-6 sm:h-10 sm:w-10 hover:bg-gray-500 hover:text-white">
+                                    &#8592;
+                                </div>
+                            
+                        </div>
+
+                        <div class="w-8/12 px-1 py-3 img">
+                                <img
+                                    id="slide_image" 
+                                    src=""
+                                    alt=""
+                                    class="w-full rounded h-28 sm:h-72 "
+                                    data-modal-target="extralarge-modal1" data-modal-toggle="extralarge-modal1"
+                                >
+                                <div class="w-full flex flex-row justify-center">
+                                    <a href="" class="text-blue-600 hover:text-blue-400 text-xs py-2 underline">download</a>
+                                </div>
+                                
+                        </div>
+
+                        <div class="w-2/12 flex items-center justify-center px-1 sm:px-4">
+                            
+                                <div class="pb-1 myButton_right text-sm sm:text-xl rounded-full flex flex-col items-center justify-center border-2 border-gray-600 hover:border-white text-gray-600 h-6 w-6 sm:h-10 sm:w-10 hover:bg-gray-500 hover:text-white">
+                                &#8594;
+                                </div>
+                        </div>    
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        
+
+        <p class="py-8 px-2">Our expert teachers</p>
+
+        <div class=" py-8 px-6 flex flex-col sm:flex-row sm:flex-wrap justify-around w-full rounded border border-slate-500 gap-x-4 gap-y-8 bg-blue-100">
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-gray-300 hover:bg-gray-600 text-gray-800 hover:text-gray-100 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://www.knhs.edu.bd/images/Rashida-madam.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24 rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col justify-center gap-2 h-24">
+                        <p class="text-base">মোসাঃ রাশিদা বেগম</p>
+                        <p class="text-xs">বাংলা ও কলা অনুষদ</p>
+                        <p class="text-xs text-blue-600 hover:text-blue-400 underline cursor-pointer ">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="w-full sm:w-72 p-1 border border-white bg-blue-300 hover:bg-blue-500 text-gray-800 hover:text-gray-100 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base">MS. Rashida Begum</p>
+                        <p class="text-xs">Faculty of Bangla and Arts </p>
+                        <p class="text-xs text-blue-600 hover:text-blue-400 underline cursor-pointer">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-yellow-200 hover:bg-yellow-300 text-gray-700 hover:text-gray-900 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://www.knhs.edu.bd/images/Alam-Sir.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base">Dr. Alam Sir</p>
+                        <p class="text-xs">Faculty of Mathematics and Physics</p>
+                        <p class="text-xs text-blue-600 hover:text-blue-400 underline cursor-pointer">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-red-200 hover:bg-red-300 text-gray-600 hover:text-gray-800 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base ">MS. Rashida Begum</p>
+                        <p class="text-xs">Faculty of Bangla and Arts </p>
+                        <p class="text-xs text-blue-600">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-green-200 hover:bg-green-300 text-gray-700 hover:text-gray-800 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base">MS. Rashida Begum</p>
+                        <p class="text-xs">Faculty of Bangla and Arts </p>
+                        <p class="text-xs text-blue-600">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-pink-200 hover:bg-pink-300 text-gray-600 hover:text-gray-800 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://www.knhs.edu.bd/images/Amzad_Master.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base ">Mr. Amzad Hossain</p>
+                        <p class="text-xs">Faculty of English and Business Studies</p>
+                        <p class="text-xs text-blue-600">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-blue-300 hover:bg-blue-500 text-gray-800 hover:text-gray-100 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base">MS. Rashida Begum</p>
+                        <p class="text-xs">Faculty of Bangla and Arts </p>
+                        <p class="text-xs text-blue-600 hover:text-blue-400 underline cursor-pointer">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="w-full sm:w-72 p-1 border border-white bg-gray-700 hover:bg-gray-800 text-gray-300 hover:text-gray-100 rounded-xl shadow-md">
+                <div class="w-full flex flex-col sm:flex-row justify-between gap-2 p-2 ">
+                    <div>
+                        <img src="https://t3.ftcdn.net/jpg/02/65/18/30/360_F_265183061_NkulfPZgRxbNg3rvYSNGGwi0iD7qbmOp.jpg"
+                        alt="Rounded Image" 
+                        class="w-24 h-24  rounded-full object-cover border-2 border-white "
+                        alt="">
+                    </div>
+                    <div class="flex flex-col  justify-center gap-2 h-24">
+                        <p class="text-base text-yellow-100">MS. Rashida Begum</p>
+                        <p class="text-xs">Faculty of Bangla and Arts </p>
+                        <p class="text-xs text-blue-600">Details</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <p class="py-8 px-2">Event and Gallary</p>
+
+        <div class=" py-8 px-6 w-full rounded border border-slate-500 bg-blue-100">
+            
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="grid gap-4">
+                    <div class="">
+                        <style>
+                            .scale15 {
+                                    transition: transform 0.7s ease; /* Optional, for smooth scaling */
+                            }
+
+                            .scale15:hover {
+                                transform: scale(1.5);
+                            }
+                        </style>
+                            <img class="w-full h-auto rounded-lg transition-transform duration-300 cursor-pointer scale15" 
+                                src="https://www.knhs.edu.bd/images/slider_1.jpg" 
+                                data-modal-target="extralarge-modal" data-modal-toggle="extralarge-modal"
+                                alt=""
+                            >
+                            <!-- <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">
+                                Toggle modal
+                            </button> -->
+
+                        
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://www.knhs.edu.bd/images/slider_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://www.knhs.edu.bd/images/IMG_7.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://www.knhs.edu.bd/images/PB-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="grid gap-4">
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://www.knhs.edu.bd/images/IMG_6.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-auto max-w-full rounded-lg scale15" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+             <!-- gallery modals  -->
+
+             <div id="extralarge-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                <div class="relative w-full max-w-5xl max-h-full ">
+                    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700  shadow-lg">
+                        <div class="flex flex-row justify-end  w-full bg-center rounded-lg" style="background-image: url('https://www.knhs.edu.bd/images/slider_1.jpg'); height: 80vh;  background-repeat: no-repeat; background-size: cover;">
+
+                            <div class="absolute bottom-0 bg-black bg-opacity-50 backdrop-blur-md shadow-lg text-white flex flex-row justify-center h-10 w-full rounded-b-lg">
+                                <p class="text-center text-sm py-1 " >New academic building of the school, built in 2018</p>
+                            </div>
+
+                            <button type="button" class="text-gray-400 bg-transparent hover: hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="extralarge-modal">
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            
+             <!-- Schedules -->
+
+             <div id="extralarge-modal1" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                <div class="relative w-full max-w-5xl max-h-full ">
+                    <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 border-2 border-white shadow-lg">
+                        <div class="flex flex-row justify-end  w-full bg-cover bg-center rounded-lg" style="background-image: url('https://i0.wp.com/www.trustcollege.edu.bd/wp-content/uploads/2020/06/Class-Routine_2nd-Year-2019-2020.jpg'); height: 80vh; background-repeat: no-repeat; background-size:cover;">
+
+                            <button type="button" class="text-gray-400 bg-transparent hover: hover:text-gray-900 rounded-lg text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="extralarge-modal1">
+                                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        
+
+        <div class="h-24 w-full mt-5"></div>
+
+    </div>
+
+    <script>
+        const images = ['https://i0.wp.com/www.trustcollege.edu.bd/wp-content/uploads/2020/06/Class-Routine_2nd-Year-2019-2020.jpg','https://cdn.smartslider3.com/wp-content/uploads/2019/05/sliderimages.png', 'https://soliloquywp.com/wp-content/uploads/2018/03/slider-placement-featured.jpg'];
+
+        //console.log(images);
+
+        const button_left = document.querySelector('.myButton_left');
+        const button_right = document.querySelector('.myButton_right');
+
+        const slide_image = document.getElementById('slide_image');
+
+       // console.log(slide_image);
+
+
+        let default_slide_image =  images[0];
+
+        //console.log(default_slide_image);
+
+
+        let originalString = default_slide_image;
+
+        let stringToRemove = "file:///C:/Users/Rimon%20Rony/OneDrive/Desktop/%22";
+
+        // Remove the first occurrence
+        let load_default_slide_image = originalString.replace(stringToRemove, "");
+
+        console.log(load_default_slide_image);
+
+        slide_image.src = load_default_slide_image;
+
+        console.log(slide_image.scr);
+
+        let index = 1;
+
+
+        // button_left.addEventListener('click', function() {
+        //     if(0 <images.length)
+        //     {
+        //         console.log(images.length);
+
+        //         default_slide_image = slide_image.src;
+
+        //     }   
+        // });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
